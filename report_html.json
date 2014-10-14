@@ -1,0 +1,404 @@
+{
+    "reports": [
+        {
+            "aggregate": {
+                "sloc": {
+                    "logical": 26,
+                    "physical": 72
+                },
+                "cyclomatic": 8,
+                "halstead": {
+                    "operators": {
+                        "distinct": 17,
+                        "total": 95,
+                        "identifiers": [
+                            "()",
+                            ":?",
+                            "===",
+                            "typeof (prefix)",
+                            ".",
+                            "=",
+                            "||",
+                            "{}",
+                            "function",
+                            "var",
+                            "if",
+                            "! (prefix)",
+                            "throw",
+                            "new",
+                            "+",
+                            "return",
+                            ":"
+                        ]
+                    },
+                    "operands": {
+                        "distinct": 42,
+                        "total": 100,
+                        "identifiers": [
+                            "window",
+                            "\"undefined\"",
+                            "module",
+                            "exports",
+                            "sqor",
+                            "<anonymous>",
+                            "jQuery",
+                            "\"jquery\"",
+                            "require",
+                            "$",
+                            "undefined",
+                            "HTML",
+                            "getTemplateString",
+                            "template_name",
+                            "isValidTemplateName",
+                            "\"invalid template name: \"",
+                            "Error",
+                            "template_string",
+                            "\"#\"",
+                            "html",
+                            "_",
+                            "exists",
+                            "_getRemote",
+                            {},
+                            "match",
+                            "getTemplate",
+                            "template",
+                            "getOneTimeTemplate",
+                            "options",
+                            "template_base",
+                            "\"/templates/partials/\"",
+                            "remote_url",
+                            "\".html?dontCacheChrome\"",
+                            "Math",
+                            "random",
+                            "type",
+                            "\"GET\"",
+                            "url",
+                            "async",
+                            false,
+                            "ajax",
+                            "responseText"
+                        ]
+                    },
+                    "length": 195,
+                    "vocabulary": 59,
+                    "difficulty": 20.238095238095237,
+                    "volume": 1147.115394625559,
+                    "effort": 23215.430605517264,
+                    "bugs": 0.3823717982085197,
+                    "time": 1289.746144750959
+                },
+                "params": 9,
+                "line": 1,
+                "cyclomaticDensity": 30.76923076923077
+            },
+            "functions": [
+                {
+                    "name": "<anonymous>",
+                    "sloc": {
+                        "logical": 7,
+                        "physical": 71
+                    },
+                    "cyclomatic": 2,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 6,
+                            "total": 22,
+                            "identifiers": [
+                                "var",
+                                "=",
+                                "||",
+                                ".",
+                                "{}",
+                                "function"
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 10,
+                            "total": 25,
+                            "identifiers": [
+                                "sqor",
+                                "$",
+                                "undefined",
+                                "HTML",
+                                "<anonymous>",
+                                "getTemplateString",
+                                "isValidTemplateName",
+                                "getTemplate",
+                                "getOneTimeTemplate",
+                                "_getRemote"
+                            ]
+                        },
+                        "length": 47,
+                        "vocabulary": 16,
+                        "difficulty": 7.5,
+                        "volume": 188,
+                        "effort": 1410,
+                        "bugs": 0.06266666666666666,
+                        "time": 78.33333333333333
+                    },
+                    "params": 3,
+                    "line": 1,
+                    "cyclomaticDensity": 28.57142857142857
+                },
+                {
+                    "name": "HTML.getTemplateString",
+                    "sloc": {
+                        "logical": 6,
+                        "physical": 12
+                    },
+                    "cyclomatic": 3,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 10,
+                            "total": 21,
+                            "identifiers": [
+                                "if",
+                                "! (prefix)",
+                                "()",
+                                ".",
+                                "throw",
+                                "new",
+                                "+",
+                                "var",
+                                "=",
+                                "return"
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 12,
+                            "total": 20,
+                            "identifiers": [
+                                "template_name",
+                                "HTML",
+                                "isValidTemplateName",
+                                "\"invalid template name: \"",
+                                "Error",
+                                "template_string",
+                                "\"#\"",
+                                "$",
+                                "html",
+                                "_",
+                                "exists",
+                                "_getRemote"
+                            ]
+                        },
+                        "length": 41,
+                        "vocabulary": 22,
+                        "difficulty": 8.333333333333334,
+                        "volume": 182.83669636412918,
+                        "effort": 1523.6391363677433,
+                        "bugs": 0.06094556545470973,
+                        "time": 84.64661868709685
+                    },
+                    "params": 1,
+                    "line": 13,
+                    "cyclomaticDensity": 50
+                },
+                {
+                    "name": "HTML.isValidTemplateName",
+                    "sloc": {
+                        "logical": 1,
+                        "physical": 3
+                    },
+                    "cyclomatic": 1,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 4,
+                            "total": 5,
+                            "identifiers": [
+                                "return",
+                                "! (prefix)",
+                                "()",
+                                "."
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 3,
+                            "total": 4,
+                            "identifiers": [
+                                "template_name",
+                                {},
+                                "match"
+                            ]
+                        },
+                        "length": 9,
+                        "vocabulary": 7,
+                        "difficulty": 2.6666666666666665,
+                        "volume": 25.26619429851844,
+                        "effort": 67.3765181293825,
+                        "bugs": 0.008422064766172813,
+                        "time": 3.743139896076806
+                    },
+                    "params": 1,
+                    "line": 26,
+                    "cyclomaticDensity": 100
+                },
+                {
+                    "name": "HTML.getTemplate",
+                    "sloc": {
+                        "logical": 1,
+                        "physical": 3
+                    },
+                    "cyclomatic": 1,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 3,
+                            "total": 5,
+                            "identifiers": [
+                                "return",
+                                "()",
+                                "."
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 5,
+                            "total": 6,
+                            "identifiers": [
+                                "template_name",
+                                "HTML",
+                                "getTemplateString",
+                                "_",
+                                "template"
+                            ]
+                        },
+                        "length": 11,
+                        "vocabulary": 8,
+                        "difficulty": 1.7999999999999998,
+                        "volume": 33,
+                        "effort": 59.39999999999999,
+                        "bugs": 0.011,
+                        "time": 3.2999999999999994
+                    },
+                    "params": 1,
+                    "line": 31,
+                    "cyclomaticDensity": 100
+                },
+                {
+                    "name": "HTML.getOneTimeTemplate",
+                    "sloc": {
+                        "logical": 3,
+                        "physical": 6
+                    },
+                    "cyclomatic": 2,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 7,
+                            "total": 10,
+                            "identifiers": [
+                                "if",
+                                "! (prefix)",
+                                "()",
+                                ".",
+                                "=",
+                                "{}",
+                                "return"
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 7,
+                            "total": 11,
+                            "identifiers": [
+                                "template_name",
+                                "options",
+                                "_",
+                                "exists",
+                                "<anonymous>",
+                                "HTML",
+                                "getTemplate"
+                            ]
+                        },
+                        "length": 21,
+                        "vocabulary": 14,
+                        "difficulty": 5.5,
+                        "volume": 79.95445336320968,
+                        "effort": 439.74949349765325,
+                        "bugs": 0.026651484454403226,
+                        "time": 24.430527416536293
+                    },
+                    "params": 2,
+                    "line": 35,
+                    "cyclomaticDensity": 66.66666666666666
+                },
+                {
+                    "name": "HTML._getRemote",
+                    "sloc": {
+                        "logical": 6,
+                        "physical": 10
+                    },
+                    "cyclomatic": 1,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 8,
+                            "total": 17,
+                            "identifiers": [
+                                "var",
+                                "=",
+                                "+",
+                                "()",
+                                ".",
+                                "return",
+                                "{}",
+                                ":"
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 16,
+                            "total": 19,
+                            "identifiers": [
+                                "template_name",
+                                "template_base",
+                                "\"/templates/partials/\"",
+                                "remote_url",
+                                "\".html?dontCacheChrome\"",
+                                "Math",
+                                "random",
+                                "<anonymous>",
+                                "type",
+                                "\"GET\"",
+                                "url",
+                                "async",
+                                false,
+                                "$",
+                                "ajax",
+                                "responseText"
+                            ]
+                        },
+                        "length": 36,
+                        "vocabulary": 24,
+                        "difficulty": 4.75,
+                        "volume": 165.05865002596164,
+                        "effort": 784.0285876233178,
+                        "bugs": 0.05501955000865388,
+                        "time": 43.55714375685099
+                    },
+                    "params": 1,
+                    "line": 42,
+                    "cyclomaticDensity": 16.666666666666664
+                }
+            ],
+            "dependencies": [
+                {
+                    "line": 72,
+                    "path": "jquery",
+                    "type": "CommonJS"
+                }
+            ],
+            "maintainability": 125.9519670657989,
+            "params": 1.5,
+            "path": "js/html.js"
+        }
+    ],
+    "adjacencyMatrix": [
+        [
+            0
+        ]
+    ],
+    "firstOrderDensity": 0,
+    "visibilityMatrix": [
+        [
+            0
+        ]
+    ],
+    "changeCost": 100,
+    "coreSize": 0
+}
