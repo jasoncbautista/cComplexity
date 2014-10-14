@@ -24,3 +24,12 @@ cr -o report_html.json -f json -m 1  js/html.js
 
 a.reports[0].functions[1]
 b.reports[0].path
+
+
+
+http://esprima.org/
+http://jscomplexity.org/
+
+
+
+https://github.com/jasoncbautista/grunt-complexity
