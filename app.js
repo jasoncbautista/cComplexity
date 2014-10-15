@@ -1,3 +1,6 @@
+var args = process.argv.slice(2);
+
+console.log(args);
 var fs = require("fs")
 
 

@@ -33,3 +33,11 @@ http://jscomplexity.org/
 
 
 https://github.com/jasoncbautista/grunt-complexity
+
+
+Run:
+```
+node app.js  wtf ff
+
+```
+
